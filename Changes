@@ -1,0 +1,5 @@
+Revision history for Perl extension SMS::Send::CSoft.
+
+1.102480  2010-09-05 15:01:05 Europe/London
+	- Initial CPAN release taken from my code at
+          http://www.xpl-perl.org.uk/
