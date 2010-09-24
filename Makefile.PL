@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     'LWP::UserAgent' => '0',
     'SMS::Send::Driver' => '0'
   },
-  'VERSION' => '1.102480',
+  'VERSION' => '1.102670',
   'test' => {
     'TESTS' => 't/*.t'
   }
