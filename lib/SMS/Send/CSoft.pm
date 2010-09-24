@@ -1,11 +1,14 @@
+use strict;
+use warnings;
 package SMS::Send::CSoft;
+BEGIN {
+  $SMS::Send::CSoft::VERSION = '1.102671';
+}
 
 # ABSTRACT: SMS::Send driver to send via the Connection Software service
 
 
 use 5.006;
-use strict;
-use warnings;
 use SMS::Send::Driver;
 use LWP::UserAgent;
 use HTTP::Request::Common qw(POST);
@@ -70,7 +73,7 @@ SMS::Send::CSoft - SMS::Send driver to send via the Connection Software service
 
 =head1 VERSION
 
-version 1.102670
+version 1.102671
 
 =head1 SYNOPSIS
 
