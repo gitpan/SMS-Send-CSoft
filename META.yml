@@ -4,14 +4,14 @@ author:
   - 'Mark Hindess <soft-cpan@temporalanomaly.com>'
 build_requires:
   English: 0
-  IO::Select: 0
-  IO::Socket::INET: 0
+  LWP::Protocol::PSGI: 0
+  Plack::Request: 0
   SMS::Send: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.101670'
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,6 +23,6 @@ requires:
   SMS::Send::Driver: 0
   perl: 5.006
 resources:
-  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SMS-Send-CSoft
-  repository: git://github.com/beanz/sms-send-csoft.git
-version: 1.102671
+  bugtracker: http://github.com/beanz/sms-send-csoft-perl/issues
+  repository: git://github.com/beanz/sms-send-csoft-perl.git
+version: 1.111480
