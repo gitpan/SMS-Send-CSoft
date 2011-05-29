@@ -5,6 +5,7 @@ author:
 build_requires:
   English: 0
   LWP::Protocol::PSGI: 0
+  LWP::Protocol::https: 0
   Plack::Request: 0
   SMS::Send: 0
   Test::More: 0
@@ -25,4 +26,4 @@ requires:
 resources:
   bugtracker: http://github.com/beanz/sms-send-csoft-perl/issues
   repository: git://github.com/beanz/sms-send-csoft-perl.git
-version: 1.111480
+version: 1.111490

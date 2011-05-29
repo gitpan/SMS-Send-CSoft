@@ -14,6 +14,7 @@ my %WriteMakefileArgs = (
   'BUILD_REQUIRES' => {
     'English' => '0',
     'LWP::Protocol::PSGI' => '0',
+    'LWP::Protocol::https' => '0',
     'Plack::Request' => '0',
     'SMS::Send' => '0',
     'Test::More' => '0'
@@ -30,7 +31,7 @@ my %WriteMakefileArgs = (
     'LWP::UserAgent' => '0',
     'SMS::Send::Driver' => '0'
   },
-  'VERSION' => '1.111480',
+  'VERSION' => '1.111490',
   'test' => {
     'TESTS' => 't/*.t'
   }
